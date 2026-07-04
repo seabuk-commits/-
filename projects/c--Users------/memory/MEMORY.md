@@ -1,0 +1,1 @@
+- [한국어 응답 선호](feedback_korean_responses.md) — 모든 답변은 한국어로 작성 (고유명사/명령어 제외)
