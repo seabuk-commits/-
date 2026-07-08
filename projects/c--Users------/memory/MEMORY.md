@@ -1,1 +1,2 @@
 - [한국어 응답 선호](feedback_korean_responses.md) — 모든 답변은 한국어로 작성 (고유명사/명령어 제외)
+- [클로드 애칭 "진님"](feedback_claude_nickname_jinnim.md) — 대화에서 "진님"은 클로드 자신을 지칭
