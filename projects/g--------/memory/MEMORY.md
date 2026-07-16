@@ -1,0 +1,1 @@
+- [Free AI model connections](reference_free_ai_models.md) — Gemini/Groq API keys location & working models for delegation requests

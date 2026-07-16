@@ -1,11 +1,41 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(Get-ChildItem*)",
-      "PowerShell(git status*)",
-      "PowerShell(git log*)",
-      "PowerShell(Test-Path*)",
-      "PowerShell(Get-Command*)"
-    ]
-  }
+﻿{
+    "permissions":  {
+                        "defaultMode":  "auto"
+                    },
+    "hooks":  {
+                  "PreToolUse":  [
+                                     {
+                                         "matcher":  "Edit|Write|MultiEdit",
+                                         "hooks":  [
+                                                       {
+                                                           "type":  "command",
+                                                           "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.claude\\fable\\hooks\\orchestration-gate.ps1\"",
+                                                           "timeout":  10
+                                                       }
+                                                   ]
+                                     }
+                                 ],
+                  "Stop":  [
+                               {
+                                   "hooks":  [
+                                                 {
+                                                     "type":  "command",
+                                                     "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.claude\\fable\\hooks\\reset-counter.ps1\"",
+                                                     "timeout":  10
+                                                 }
+                                             ]
+                               }
+                           ],
+                  "SessionStart":  [
+                                       {
+                                           "hooks":  [
+                                                         {
+                                                             "type":  "command",
+                                                             "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.claude\\fable\\hooks\\capture-model.ps1\"",
+                                                             "timeout":  10
+                                                         }
+                                                     ]
+                                       }
+                                   ]
+              }
 }

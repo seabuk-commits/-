@@ -17,6 +17,12 @@
 !scripts
 !scripts/**
 
+!fable
+!fable/active.md
+!fable/fable.md
+!fable/hooks
+!fable/hooks/**
+
 # 프로젝트별 memory 만 동기화 (세션 로그, 백업, 자격증명 등은 제외)
 !projects
 !projects/*

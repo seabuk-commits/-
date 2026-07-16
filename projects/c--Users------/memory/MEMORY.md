@@ -1,1 +1,5 @@
 - [한국어 응답 선호](feedback_korean_responses.md) — 모든 답변은 한국어로 작성 (고유명사/명령어 제외)
+- [다른놈 라우터](reference_other-model-router.md) — "다른놈" 트리거 시 Gemini/Groq/OpenRouter/Ollama 중 골라 호출
+- [똑똑이](reference_ddokddogi-gemini35.md) — "똑똑이" 트리거 시 Gemini 3.5 Flash 호출. 폰은 MCP 툴 call_gemini35, PC는 스크립트/HTTP
+- [관리사 프로젝트 협업](project_gwanrisa-project-collab.md) — 이 프로젝트에서 나=비서실장(비서), claude.ai=수석. 전달할 말은 MD로 저장만
+- [NLM Phase1 현황](project_gwanrisa-nlm-phase1.md) — 조사→정리 단계, 한도 도달(4개 노트북), 매니페스트 갱신 진행 중

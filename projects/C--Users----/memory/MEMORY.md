@@ -1,0 +1,8 @@
+- [에이전트 설계 프레임워크](agent_design_framework.md) — "에이전트 설계" 요청 시 통합 설계서 작성 절차/구조
+- [노엘 유튜브 위주 방침](project_noel_youtube_focus.md) — NotebookLM은 유튜브 영상 가공 위주로 사용, 문서(PDF)는 다른 경로로 처리
+- [노엘 오디오 하루 3개 제한](feedback_notebooklm_audio_daily_limit.md) — NotebookLM 오디오(팟캐스트) 생성은 하루 3개 한도, 여러 노트북 작업시 순서 계획 필요
+- [노엘 노트북 가공 진행상태](project_noel_notebook_processing_status.md) — 5개 노트북 전체 가공 목표, 전기기사 완료, 나머지 4개 남음, 소방기사=기초자료로 중복 참고 필요
+- [관리사 프로젝트 협업](project_gwanrisa-project-collab.md) — 관리사 프로젝트에서 나=비서실장(비서), claude.ai=수석. 전달할 말은 MD로 저장만
+- [관리사 NLM Phase1 현황](project_gwanrisa-nlm-phase1.md) — 조사→정리 단계, 한도 도달(4개 노트북), 매니페스트 갱신 진행 중
+- [똑똑이](reference_ddokddogi-gemini35.md) — "똑똑이" 트리거 시 Gemini 3.5 Flash 호출 (MCP 커넥터/스크립트/HTTP 경로)
+- [다른놈 라우터](reference_other-model-router.md) — "다른놈" 트리거 시 Gemini/Groq/OpenRouter/Ollama 중 골라 호출

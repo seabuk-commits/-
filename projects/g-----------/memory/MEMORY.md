@@ -1,0 +1,2 @@
+- [wiki-vault 권한 레벨/진행상황](project_wiki_vault_permission.md) — 소방 wiki-vault 정리 작업은 레벨3(자동실행), 남은 작업은 시설관리사 1차/2차·기술사·음성강의
+- [제미나이 위임 방침](feedback_gemini_delegation.md) — 위임 가능한 작업은 Gemini CLI 먼저 시켜 클로드 토큰 절약, 사용량 90% 한도(정확한 실시간 조회는 불가)
